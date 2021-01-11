@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="formDiv">
+        <label for="nameLabel">Name:</label><br />
+        <input type="text" id="nameId" /><br />
+        <label for="wheelsLabel">Number Of Wheels:</label><br />
+        <input type="number" id="wheelsId" /><br />
+        <label for="engineCapacityLabel">EngineCapacity:</label><br />
+        <input type="number" id="engineCapacityId" /><br />
+        <label for="colorLabel">Color:</label><br />
+        <input type="color" id="colorId" /><br />
+        <select name="selectId" id="selectId">
+            Vehicles:
+            <option value="Truck">Truck</option>
+            <option value="SportCar">SportCar</option>
+            <option value="Airplane">Airplane</option>
+        </select>
+        <button onclick="creatNewTableRow()">
+            Click
+        </button>
+    </div>
+    <div id="secDiv">
+        <table id="tableId">
+            <th>Wheels</th>
+            <th>Engine-Capacity</th>
+            <th>Color</th>
+            <th>Name</th>
+            <th>Type Of Vehicle</th>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

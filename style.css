@@ -1,0 +1,55 @@
+#formDiv {
+  position: relative;
+  left: 10%;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 300px;
+  line-height: 10px;
+  background-color: aqua;
+}
+
+#secDiv {
+  flex-basis: content;
+}
+
+label {
+  font-size: large;
+  text-align: justify;
+}
+#nameId,
+#wheelsId,
+#engineCapacityId {
+  flex-basis: 5px;
+  width: 200px;
+}
+#colorId {
+  flex-basis: 5px;
+  width: 150px;
+}
+#selectId {
+  flex-basis: 30px;
+  width: 200px;
+}
+button {
+  flex-basis: 30px;
+  width: 200px;
+}
+#tableId {
+  position: relative;
+  top: -250px;
+  left: 40%;
+  width: 50%;
+  background-color: grey;
+}
+th {
+  padding: 5px;
+  background-color: lightsteelblue;
+}
+td {
+  text-align: center;
+  background-color: linen;
+}
